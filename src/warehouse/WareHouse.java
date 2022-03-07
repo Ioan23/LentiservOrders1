@@ -7,9 +7,10 @@ import java.util.List;
 
 public interface WareHouse {
     public void orderLenses(Envelope envelope);
-    public void mountTheLenses();
-    public void deliverOrders();
-    public void receivePackage();
+    public void mountTheLenses(Envelope envelope);
+
+    public void deliverOrders(List<Envelope> envelopeMountList) ;
+
 
     void notifyClient(OrderStatus orderStatus);
 

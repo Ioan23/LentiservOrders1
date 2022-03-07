@@ -9,12 +9,7 @@ import java.util.List;
 public interface Client {
     void orderStatus(OrderStatus orderStatus);
 
-
-
-
     void sendEnvelopeItems(List<Envelope> envelopeList);
-
-    
 
     boolean areItemsSent();
 

@@ -13,18 +13,14 @@ public class WareHouseImpl implements WareHouse{
         orderStatus = OrderStatus.ORDER_LENS;
     }
 
+
     @Override
-    public void mountTheLenses() {
+    public void mountTheLenses(Envelope envelope) {
 
     }
 
     @Override
-    public void deliverOrders() {
-
-    }
-
-    @Override
-    public void receivePackage() {
+    public void deliverOrders(List<Envelope> envelopeMountList) {
 
     }
 
