@@ -1,5 +1,6 @@
 package envelope;
 
+
 public class EnvelopeImpl implements Envelope {
     private String name;
     private String frame;
@@ -7,7 +8,12 @@ public class EnvelopeImpl implements Envelope {
 
 
 
+
+
+
     public EnvelopeImpl(){
+
+
 
     }
     public EnvelopeImpl(String name, String frame, String lensType){
