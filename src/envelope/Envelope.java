@@ -8,7 +8,6 @@ public interface Envelope {
 
     void lensesAreOrdered();
 
-
     void hasLensMount();
 
     void prepareForSend();

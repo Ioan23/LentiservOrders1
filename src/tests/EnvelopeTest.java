@@ -1,9 +1,7 @@
 package tests;
-
 import envelope.Envelope;
 
 public class EnvelopeTest {
-
     Envelope envelope = null;
 
     void testEnvelepReceiveWithOutLens(){
@@ -13,6 +11,7 @@ public class EnvelopeTest {
         envelope.hasLens();
     }
     // Metoda Ioan
+
     void testEnvelopeLensesAreOrdered(){
         envelope.lensesAreOrdered();
     }

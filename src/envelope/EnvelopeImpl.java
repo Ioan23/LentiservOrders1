@@ -1,7 +1,5 @@
 package envelope;
 
-
-
 public class EnvelopeImpl implements Envelope {
     private String name;
     private String frame;
@@ -25,6 +23,21 @@ public class EnvelopeImpl implements Envelope {
 
     @Override
     public void hasLens() {
+
+    }
+
+    @Override
+    public void lensesAreOrdered() {
+
+    }
+
+    @Override
+    public void hasLensMount() {
+
+    }
+
+    @Override
+    public void prepareForSend() {
 
     }
 }

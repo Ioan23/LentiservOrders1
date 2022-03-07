@@ -12,6 +12,7 @@ public class WareHouseTest {
     public void testReceiveOrders(){
         List<Envelope> envelopeList = new ArrayList<>();
         wareHouse.receiveOrders(envelopeList);
+
     }
 
     public void testOrderLens(){
@@ -31,4 +32,5 @@ public class WareHouseTest {
         Envelope envelope = null;
         wareHouse.prepareEnvelopeForMount(envelope);
     }
+
 }
